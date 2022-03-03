@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(to right, blue, white);
+}
+
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+
+.item {
+    padding: 150px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    height: 200px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+    
+
+
+.button {
+    position: relative;
+    bottom: 100px;
+    left: 680px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Snell Roundhand, cursive;
+    border-radius: 15px;
+}
